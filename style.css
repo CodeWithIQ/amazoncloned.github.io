@@ -1,0 +1,662 @@
+*{
+     margin:0;
+    padding: 0;
+    font-family:Arial,sans-serif;
+}
+body{
+    font-size: 14px;
+}
+.first{
+    float:left;
+    list-style-type:none;
+    background-color: rgba(7, 3, 3, 0.795);
+    width:100%;
+}
+.header-rows li{
+    display:inline-block;
+    padding:15px 10px;
+
+}
+.first .header-rows li a{
+    padding: 0px 2px;
+}
+.first .header-rows li a:hover{
+    border:1px solid #fff;
+    height: 10px;
+    width: fit-content;
+}
+.header-rows li a{
+    color:#fff;
+    text-decoration: none;
+}
+.imge{
+    position:absolute ;
+    right: 20px;
+    float:left;
+    margin:10px;
+}
+.imge:hover{
+    border:1px solid #fff;
+}
+
+.second .header-rows li:hover{
+    text-decoration: underline;
+    text-decoration-color:orange;
+}
+#vertical{
+    border-left: 1px solid #000;
+    height: 1320px;
+    position: absolute;
+    left:18%;
+}
+#Heading-1{
+    position: absolute;
+    left:247px;
+}
+.sidebar-star{
+    color:gold;
+    font-size: 20px;
+}
+#line-1{
+    margin-top: 35px;
+    margin-left: 247px;
+    width: 78%;
+}
+#first-phone{
+    position:absolute;
+    left:25%;
+    top:25%;
+}
+#first-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#first-phone a:hover{
+    color:#c45500;
+}
+
+.phone-information span{
+    width: 20px;
+    height:20px;
+}
+.phone-information {
+   white-space:nowrap;
+   width:200px;
+   height:50px;
+   overflow:hidden;
+   text-overflow: ellipsis;
+
+}
+.brand{
+    font-size: 15px;
+}
+.price-size{
+    font-size:30px;
+}
+.actual-price{
+    text-decoration: line-through;
+}
+.star{
+    color:gold;
+    font-size:18px;
+}
+.prime{
+    color:orange;
+}
+.prime-color{
+    color:rgb(53, 139, 173);
+}
+#second-phone{
+    position:absolute;
+    left: 600px;
+    top:150px;
+}
+#second-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#second-phone a:hover{
+    color:#c45500;
+}
+#third-phone{
+    position: absolute;
+    left:840px;
+    top:150px;
+}
+#third-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#third-phone a:hover{
+    color:#c45500;
+}
+#fourth-phone{
+    position: absolute;
+    left:1050px;
+    top:150px;
+}
+#fourth-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#fourth-phone a:hover{
+    color:#c45500;
+}
+#heading-2{
+    position: absolute;
+    left:247px;
+    top:500px;
+}
+#line-2{
+    position:absolute;
+    margin-left:247px;
+    margin-top:400px;
+    width:999px;
+}
+#fifth-phone{
+    position: absolute;
+    left: 390px;
+    top: 570px;
+}
+#fifth-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#fifth-phone a:hover{
+    color:#c45500;
+}
+#sixth-phone{
+    position: absolute;
+    left:680px;
+    top:570px;
+}
+#sixth-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#sixth-phone a:hover{
+    color:#c45500;
+}
+#seventh-phone{
+    position: absolute;
+    left:950px;
+    top:570px;
+}
+#seventh-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#seventh-phone a:hover{
+    color:#c45500;
+}
+#advertisement{
+    position: absolute;
+    left:240px;
+    top:940px;
+    width:600px;
+    height:200px;
+}
+#after-ad{
+    position: absolute;
+    top:1200px;
+    left:238px;
+    width:966px;
+    padding:20px;
+    padding-left:25px;
+    height:20px;
+    border:1px solid #000;
+    border-radius:5px;
+}
+#after-ad b{
+    color: #c45500;
+}
+#eigth-phone{
+    position: absolute;
+    top:1300px;
+    left:300px;
+}
+#eigth-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#eigth-phone a:hover{
+    color:#c45500;
+}
+#eigth-phone .different-details{
+    color:blue;
+}
+.phone-information-extra{
+    white-space:nowrap;
+    width:300px;
+    height:68px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.free-delivery{
+    font-size: 13px;
+}
+.delivery-details{
+    letter-spacing: 0.5px;
+}
+#ninth-phone{
+    position: absolute;
+    top:1300px;
+    left:625px;
+}
+#ninth-phone a{
+    text-decoration: none;
+    color: #000;
+}
+#ninth-phone a:hover{
+    color:#c45500;
+}
+#ninth-phone .different-details{
+    color:blue;
+}
+#tenth-phone{
+    position: absolute;
+    left:940px;
+    top:1300px;
+}
+#tenth-phone a{
+    text-decoration: none ;
+    color:black;
+}
+#tenth-phone a:hover{
+    color:#c45500;
+}
+#tenth-phone .different-details{
+    color:blue;
+}
+#line-spacing{
+    line-height:28px;
+    margin-left:20px;
+
+}
+#sidebar-link-1 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-1 a:hover{
+    color:#c45500;
+}
+#sidebar-link-2 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-2 a:hover{
+    color:#c45500;
+}
+#sidebar-link-3 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-3 a:hover{
+    color:#c45500;
+}
+#sidebar-link-4 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-4 a:hover{
+    color:#c45500;
+}
+#sidebar-link-5 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-5 a:hover{
+    color:#c45500;
+}
+#sidebar-link-6 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-6 a:hover{
+    color:#c45500;
+}
+#sidebar-link-7 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-7 a:hover{
+    color:#c45500;
+}
+#sidebar-link-8 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-8 a:hover{
+    color:#c45500;
+}
+#sidebar-link-9 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-9 a:hover{
+    color:#c45500;
+}
+#sidebar-link-10 a{
+    text-decoration: none;
+    color:#000;
+}
+#sidebar-link-10 a:hover{
+    color:#c45500;
+}
+#all-results{
+    border: 1px solid #000;
+    position: absolute;
+    left: 260px;
+    top: 1678px;
+    width: 940px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color:#0066c0;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+#all-results:hover{
+    color:#c45500;
+    text-decoration: underline;
+}
+#back-to-top{
+    border:1px solid #0f1111be;
+    position:absolute;
+    top:1800px;
+    width:100%;
+    color:#fff;
+    font-size: 13px;
+    height:40px;
+    padding-top: 18px;
+    background-color: #0f1111be;
+}
+#back-to-top:hover{
+    width:100%;
+}
+#footer-all-column{
+    border:1px solid #232F3E;
+    background-color:#232F3E;
+    position: absolute;
+    top: 1860px;
+    height:585px;
+    width:100%;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+}
+#footer-column-heading-1{
+    color:#fff ;
+    position:absolute;
+    left:100px;
+    top:50px;
+}
+#footer-first-column{
+    color:#fff;
+    position:absolute;
+    left:100px;
+    top:78px;
+    list-style-type: none;
+    filter:brightness(80%);
+}
+#footer-first-column-list-item-1:hover{
+    text-decoration:underline;
+}
+#footer-first-column-list-item-2:hover{
+    text-decoration:underline;
+}
+#footer-first-column-list-item-3:hover{
+    text-decoration:underline;
+}
+#footer-first-column-list-item-4:hover{
+    text-decoration:underline;
+}
+#footer-first-column-list-item-5:hover{
+    text-decoration:underline;
+}
+#footer-column-heading-2{
+    color:#fff ;
+    position:absolute;
+    left:377px;
+    top:50px;
+}
+#footer-second-column{
+    color:#fff;
+    position:absolute;
+    left:377px;
+    top:78px;
+    list-style-type: none;
+    filter:brightness(80%);
+}
+#footer-second-column-list-item-1:hover{
+    text-decoration:underline;
+}
+#footer-second-column-list-item-2:hover{
+    text-decoration:underline;
+}
+#footer-second-column-list-item-3:hover{
+    text-decoration:underline;
+}
+#footer-column-heading-3{
+    color:#fff ;
+    position:absolute;
+    left:656px;
+    top:50px;}
+#footer-third-column{
+    color:#fff;
+    position:absolute;
+    left:656px;
+    top:78px;
+    list-style-type: none;
+    filter:brightness(80%);
+}
+#footer-third-column-list-item-1:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-2:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-3:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-4:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-5:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-6:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-7:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-8:hover{
+    text-decoration:underline;
+}
+#footer-third-column-list-item-9:hover{
+    text-decoration:underline;
+}
+#footer-column-heading-4{
+    color:#fff ;
+    position:absolute;
+    left:978px;
+    top:50px;
+}
+#footer-fourth-column{
+    color:#fff;
+    position:absolute;
+    left:978px;
+    top:78px;
+    list-style-type: none;
+    filter:brightness(80%);
+}
+#footer-fourth-column-list-item-1:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-2:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-3:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-4:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-5:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-6:hover{
+    text-decoration:underline;
+}
+#footer-fourth-column-list-item-7:hover{
+    text-decoration:underline;
+}
+#footer-horizontal-line{
+    position:absolute;
+    top:400px;
+    width:100%;
+    color:#fff;
+    filter: brightness(80%);
+}
+#footer-image{
+    position:relative;
+    top: 874px;
+    left: 450px;
+    width:fit-content;
+}
+#footer-cityname{
+   float:left;
+   position: relative;
+   top: 900px;
+   color:#fff;
+   margin-left:80px;
+   filter:brightness(85%);
+   font-size: 13px;
+}
+#footer-cityname li{
+    display: inline-block;
+}
+#footer-last-part{
+    position: relative;
+    top:963px;
+    background-color: #131A22;
+    height:200px;
+    width:100%;
+    font-size: 12px;
+}
+#footer-last-part-content-1{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:90px;
+    top:20px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-1:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-2{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:325px;
+    top:20px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-2:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-3{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:610px;
+    top:20px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-3:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-4{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:830px;
+    top:20px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-4:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-5{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:1050px;
+    top:20px;
+    filter:brightness(80%);
+    font-size: 10px;
+}
+#footer-last-part-content-5:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-6{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:90px;
+    top:90px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-6:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-7{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:325px;
+    top:90px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-7:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-8{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:610px;
+    top:90px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-8:hover{
+    text-decoration: underline;
+}
+#footer-last-part-content-9{
+    list-style-type: none;
+    color:#fff;
+    position: absolute;
+    left:830px;
+    top:90px;
+    filter:brightness(85%);
+    font-size: 10px;
+}
+#footer-last-part-content-9:hover{
+    text-decoration: underline;
+}
+#footer-last-line{
+    position: relative;
+    top: 921px;
+    left: 244px;
+    color:#fff;
+    font-size:px;
+    letter-spacing: 0.7px;
+    filter:brightness(85%);
+}
